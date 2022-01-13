@@ -8,7 +8,10 @@ namespace leetcode
     {
         public static void Main()
         {
-            System.Console.WriteLine("hello,dotnet6");
+            DominantIndex747 test= new DominantIndex747();
+            int[] t = new int[] { 3, 6, 1, 0 };
+            int v = test.DominantIndex(t);
+            System.Console.WriteLine(v);
         }
     }
 }
