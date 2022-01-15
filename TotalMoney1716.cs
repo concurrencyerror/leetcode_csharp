@@ -2,7 +2,7 @@
 {
     internal class TotalMoney1716
     {
-        public int totalMoney(int n)
+        public int TotalMoney(int n)
         {
             int num = n / 7;
             int many = n % 7;
