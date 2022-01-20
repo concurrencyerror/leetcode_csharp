@@ -8,9 +8,9 @@ namespace leetcode
     {
         public static void Main()
         {
-            DominantIndex747 test= new DominantIndex747();
-            int[] t = new int[] { 3, 6, 1, 0 };
-            int v = test.DominantIndex(t);
+            ContainsNearbyDuplicate219 a = new ContainsNearbyDuplicate219();
+            int[] t = new int[] { 1, 2, 3, 1, 2, 3 };
+            bool v = a.ContainsNearbyDuplicate(t, 2);
             System.Console.WriteLine(v);
         }
     }
