@@ -8,10 +8,8 @@ namespace leetcode
     {
         public static void Main()
         {
-            ContainsNearbyDuplicate219 a = new ContainsNearbyDuplicate219();
-            int[] t = new int[] { 1, 2, 3, 1, 2, 3 };
-            bool v = a.ContainsNearbyDuplicate(t, 2);
-            System.Console.WriteLine(v);
+            Solution1441 s = new Solution1441();
+            s.BuildArray(new int[] { 1, 2 }, 4);
         }
     }
 }
