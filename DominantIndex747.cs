@@ -14,13 +14,10 @@ namespace leetcode
             {
                 return 0;
             }
-            int bigger = nums.Max();
-            foreach (int i in nums)
+            var bigger = nums.Max();
+            if (nums.Any(i => bigger != i && bigger < (i * 2)))
             {
-                if (bigger != i && bigger < (i * 2))
-                {
-                    return -1;
-                }
+                return -1;
             }
             return Array.IndexOf(nums, bigger);
         }

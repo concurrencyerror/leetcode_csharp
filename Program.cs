@@ -8,8 +8,8 @@ namespace leetcode
     {
         public static void Main()
         {
-            Solution1441 s = new Solution1441();
-            s.BuildArray(new int[] { 1, 2 }, 4);
+            var s = new Solution2032();
+            s.TwoOutOfThree(new int[] { 1, 1, 3, 2 }, new[] { 2, 3 }, new[] { 3 });
         }
     }
 }
