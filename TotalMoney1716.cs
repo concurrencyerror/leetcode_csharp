@@ -4,17 +4,17 @@
     {
         public int TotalMoney(int n)
         {
-            int num = n / 7;
-            int many = n % 7;
-            int last = 0;
-            int begin = num + 1;
-            for (int i = 0; i < many; i++)
+            var num = n / 7;
+            var many = n % 7;
+            var last = 0;
+            var begin = num + 1;
+            for (var i = 0; i < many; i++)
             {
                 last += begin;
                 begin++;
             }
-            int sub = 0;
-            for (int i = 0; i < num; i++)
+            var sub = 0;
+            for (var i = 0; i < num; i++)
             {
                 sub += i * 7;
             }
