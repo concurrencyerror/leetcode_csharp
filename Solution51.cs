@@ -11,11 +11,11 @@ namespace leetcode
     {
         public int GiveGem(int[] gem, int[][] operations)
         {
-            for (int i = 0; i < operations.Length; i++)
+            foreach (int[] op in operations)
             {
-                int v = gem[operations[i][0]] / 2;
-                gem[operations[i][0]] -= v;
-                gem[operations[i][1]] += v;
+                int v = gem[op[0]] / 2;
+                gem[op[0]] -= v;
+                gem[op[1]] += v;
             }
             return gem.Max() - gem.Min();
         }
