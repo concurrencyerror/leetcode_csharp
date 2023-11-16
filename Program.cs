@@ -8,8 +8,8 @@ namespace leetcode
     {
         public static void Main()
         {
-            var s = new Solution2032();
-            s.TwoOutOfThree(new int[] { 1, 1, 3, 2 }, new[] { 2, 3 }, new[] { 3 });
+            int[] num = [1];
+            Solution2760.LongestAlternatingSubarray(num, 1);
         }
     }
 }
