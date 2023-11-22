@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace leetcode
+namespace leetcode.leetcode
 {
     internal class DominantIndex747
     {
@@ -15,7 +15,7 @@ namespace leetcode
                 return 0;
             }
             var bigger = nums.Max();
-            if (nums.Any(i => bigger != i && bigger < (i * 2)))
+            if (nums.Any(i => bigger != i && bigger < i * 2))
             {
                 return -1;
             }

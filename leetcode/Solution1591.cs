@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace leetcode
+namespace leetcode.leetcode
 {
     internal class Solution1591
     {
@@ -18,7 +18,7 @@ namespace leetcode
             int cnt = Math.Min(money / 7, children);
             money -= cnt * 7;
             children -= cnt;
-            if ((children == 0 && money > 0) || (children == 1 && money == 3))
+            if (children == 0 && money > 0 || children == 1 && money == 3)
             {
                 cnt--;
             }

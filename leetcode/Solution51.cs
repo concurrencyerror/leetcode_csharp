@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace leetcode
+namespace leetcode.leetcode
 {
     internal class Solution50
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace leetcode
+namespace leetcode.leetcode
 {
     internal class Solution2460
     {
